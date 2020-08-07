@@ -1,0 +1,41 @@
+// Set custom font
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('../fonts/DMSans-Regular.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('../fonts/DMSans-Bold.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DM Sans', sans-serif;
+    src: url('../fonts/DMSans-Medium.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// set default font
+$default-font: 'DM Sans', sans-serif;
+
+* {
+    font-family: $default-font;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+// theme color
+$primary-color: #45B4E4;
+$btn-hover-color: #4ebceb;
+$secondary-color: #fff;
+$text-color: #5C5C5C;
+$border-color: #BFBFBF
