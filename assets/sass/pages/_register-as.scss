@@ -1,0 +1,62 @@
+#register {
+    .content {
+        margin: 0 auto;
+        align-items: center;
+        text-align: center;
+        padding: 50px;
+        max-width: 500px;
+
+        
+        .inner-content {
+            h4 {
+                color: $text-color;
+                line-height: 36px;
+                font-size: 24px;
+                letter-spacing: -0.28px;
+                padding: 100px 0 10px 0;
+            }
+    
+            
+    
+            .nurse, .doctor {
+                background-color: $primary-color;
+                margin: 20px;
+                padding: 16px;
+                border-radius: 4px;
+
+                a {
+                    color: $secondary-color;
+                    line-height: 15x;
+                    font-size: 16px;
+                    font-weight: 500;
+                }
+
+                a:hover {
+                    text-decoration: none;
+                }
+            }
+
+            .nurse:hover, .doctor:hover {
+                background-color: $btn-hover-color;
+            }
+
+            p {
+                font-size: 14px;
+                line-height: 19px;
+                color: $text-color;
+                padding: 5px 0 0 0;
+            }
+
+            .login {
+                text-decoration: underline;
+                
+                a {
+                    color: $primary-color;
+                    line-height: 19px;
+                    font-weight: bold;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
